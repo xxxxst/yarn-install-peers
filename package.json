@@ -1,6 +1,6 @@
 {
 	"name": "yarn-install-peers",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "CLI command to install peerDependencies by yarn or npm",
 	"private": false,
 	"author": "xxxxst",
