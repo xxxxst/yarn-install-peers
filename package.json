@@ -1,0 +1,22 @@
+{
+	"name": "yarn-install-peers",
+	"version": "0.0.1",
+	"description": "CLI command to install peerDependencies by yarn or npm",
+	"private": false,
+	"author": "xxxxst",
+	"license": "MIT",
+	"bin": {
+		"yarn-install-peers": "yarn-install-peers.js",
+		"yarn-install-peers-npm": "yarn-install-peers-npm.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xxxxst/yarn-install-peers.git"
+	},
+	"keywords": [
+		"yarn",
+		"peerdependencies",
+		"peers",
+		"peerdeps"
+	]
+}
