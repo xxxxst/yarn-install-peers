@@ -15,7 +15,7 @@ function main(args) {
 	// console.info("--", strLocalYarn);
 	// console.info("--", strExe);
 	var strPkg = getPeerDepCmd();
-	var strCmd = strExe + " add --peer--ignore-workspace-root-check --pure-lockfile " + strPkg;
+	var strCmd = strExe + " add --peer --ignore-workspace-root-check --pure-lockfile " + strPkg;
 	// console.info("--", strCmd);
 	try {
 		execSync(strCmd, { stdio: "inherit" });
